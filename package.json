@@ -1,0 +1,25 @@
+{
+  "name": "confirm-age-js",
+  "version": "1.0.0",
+  "description": "Pure JS modal to check if someone is 18",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "check-age",
+    "confirm-age",
+    "confirm",
+    "age",
+    "check",
+    "age"
+  ],
+  "author": "Abhi Sharma",
+  "license": "ISC"
+}
