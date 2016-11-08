@@ -14,6 +14,27 @@ app.get('/', function (req, res) {
   });
 })
 
+app.get('/page1', function (req, res) {
+  res.render('page1', {
+    title: "Confirm Age Modal JS",
+    description: "Simple script to pop up modal",
+  });
+})
+
+app.get('/page2', function (req, res) {
+  res.render('page2', {
+    title: "Confirm Age Modal JS",
+    description: "Simple script to pop up modal",
+  });
+})
+
+app.get('/error', function (req, res) {
+  res.render('error', {
+    title: "Confirm Age Modal JS",
+    description: "Simple script to pop up modal",
+  });
+})
+
 //*** Starting server functions ***//
 
 /**
